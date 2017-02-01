@@ -30,7 +30,36 @@ public class Program {
 		hans.useSomething(brummbrumm);
 		hans.useSomething(superpencil);
 		hans.useSomething(slowslow);
-		
+
+		VendingMachine vendingMachine = new VendingMachine();
+		Cola cola1 = new Cola();
+		Cola cola2 = new Cola();
+		OrangeJuice orangeJuice1 = new OrangeJuice();
+		OrangeJuice orangeJuice2 = new OrangeJuice();
+		OrangeJuice orangeJuice3 = new OrangeJuice();
+		vendingMachine.addBeverage(cola1);
+		vendingMachine.addBeverage(cola2);
+		vendingMachine.addBeverage(orangeJuice1);
+		vendingMachine.addBeverage(orangeJuice2);
+		vendingMachine.addBeverage(orangeJuice3);
+		vendingMachine.showBeverages();
+
+		OneEuro oneEuro1 = new OneEuro();
+		OneEuro oneEuro2 = new OneEuro();
+		OneEuro oneEuro3 = new OneEuro();
+		TenEuro tenEuro = new TenEuro();
+
+		vendingMachine.showValue();
+		vendingMachine.addValue(oneEuro1);
+		vendingMachine.addValue(tenEuro);
+		vendingMachine.showValue();
+		vendingMachine.getBeverage(2);
+		vendingMachine.showValue();
+		vendingMachine.showBeverages();
+
+		//System.out.println(cola1.getName() + " " + cola1.getPrice());
+
+
 
 	}
 

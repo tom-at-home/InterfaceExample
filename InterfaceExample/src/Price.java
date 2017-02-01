@@ -1,4 +1,4 @@
 
 public interface Price {
-	public int getPrice();
+	int getPrice();
 }
