@@ -15,8 +15,8 @@ public class VendingMachine {
         System.out.println(this.value);
     }
 
-    public void addValue(Euro euro){
-        this.value += euro.getValue();
+    public void addValue(Value value){
+        this.value += value.getValue();
     }
 
     public void subtractValue(Beverage beverage){

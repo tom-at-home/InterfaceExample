@@ -37,11 +37,13 @@ public class Program {
 		OrangeJuice orangeJuice1 = new OrangeJuice();
 		OrangeJuice orangeJuice2 = new OrangeJuice();
 		OrangeJuice orangeJuice3 = new OrangeJuice();
+		OrangeJuice orangeJuice4 = new OrangeJuice();
 		vendingMachine.addBeverage(cola1);
 		vendingMachine.addBeverage(cola2);
 		vendingMachine.addBeverage(orangeJuice1);
 		vendingMachine.addBeverage(orangeJuice2);
 		vendingMachine.addBeverage(orangeJuice3);
+		vendingMachine.addBeverage(orangeJuice4);
 		vendingMachine.showBeverages();
 
 		OneEuro oneEuro1 = new OneEuro();
@@ -57,6 +59,25 @@ public class Program {
 		vendingMachine.showValue();
 		vendingMachine.showBeverages();
 
+		vendingMachine.getBeverage(0);
+		vendingMachine.showValue();
+		vendingMachine.showBeverages();
+
+		vendingMachine.getBeverage(0);
+		vendingMachine.showValue();
+		vendingMachine.showBeverages();
+
+		vendingMachine.getBeverage(0);
+		vendingMachine.showValue();
+		vendingMachine.showBeverages();
+
+		vendingMachine.getBeverage(0);
+		vendingMachine.showValue();
+		vendingMachine.showBeverages();
+
+		vendingMachine.getBeverage(0);
+		vendingMachine.showValue();
+		vendingMachine.showBeverages();
 		//System.out.println(cola1.getName() + " " + cola1.getPrice());
 
 
