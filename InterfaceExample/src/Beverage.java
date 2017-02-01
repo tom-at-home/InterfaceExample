@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public abstract class Beverage implements Price{
 
     private String name;
@@ -21,6 +19,7 @@ public abstract class Beverage implements Price{
     @Override
     public int getPrice() {
         return this.price;
+
     }
 
 }
